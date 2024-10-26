@@ -11,6 +11,7 @@ app.get('/', (req, res) => {
     res.send('Hello World!')
 })
 
+// chia route tuyến đường cho app
 mainRoutes(app);
 
 const port = process?.env?.PORT ?? 3000;
